@@ -6,6 +6,13 @@ Background: Analyzing brain amyloid positron emission tomography (PET) images to
 
 Method: A total number of 7,344 PET images of 144 subjects were used in this study. The 18F-florbetaben (18F-FBB) PET was administered on all participants, and the criteria for differentiating Aβ positive and Aβ negative state was based on brain amyloid plaque load score (BAPL) that depended on the visual assessment of PET images by the physicians. We applied the CNN algorithm trained in batches of 51 PET images per subject directory from two classes: Aβ positive and Aβ negative states based on the BAPL scores. 
 
-Results: The binary prediction of the model average performance matrices was evaluated after 40 epochs of five trials based on test datasets. The model accuracy for classifying Aβ positivity and Aβ negativity was 82.00±0.02 in the test dataset. The sensitivity and specificity were 97.00±0.02 and 97.00±0.02 with an area under the curve (AUC) of 90.00±0.03.
+Results: The binary classification of the model average performance matrices was evaluated after 40 epochs of five trials based on test datasets. The model accuracy for classifying Aβ positivity and Aβ negativity was 82.00±0.02 in the test dataset. The sensitivity and specificity were 97.00±0.02 and 97.00±0.02 with an area under the curve (AUC) of 90.00±0.03.
 
 Conclusion: Based on this study, the designed CNN model has the potential to be used clinically for screening amyloid PET images.
+
+Figure shows the study framework.
+
+![Picture1](https://user-images.githubusercontent.com/46183754/232973827-8e0d77ef-a05e-4aec-898b-66d2128f3c1b.png)
+
+Abbreviations: PET, positron emission tomography; CNN, convolutional 
+neural network; Aβ, β-Amyloid.
