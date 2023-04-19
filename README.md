@@ -1,4 +1,4 @@
-# Prediction Of Aβ State from Brain Amyloid PET Images Using Machine Learning Algorithm
+# Classification Of Aβ State from Brain Amyloid PET Images Using Machine Learning Algorithm
 
 # Abstract
 
@@ -6,6 +6,6 @@ Background: Analyzing brain amyloid positron emission tomography (PET) images to
 
 Method: A total number of 7,344 PET images of 144 subjects were used in this study. The 18F-florbetaben (18F-FBB) PET was administered on all participants, and the criteria for differentiating Aβ positive and Aβ negative state was based on brain amyloid plaque load score (BAPL) that depended on the visual assessment of PET images by the physicians. We applied the CNN algorithm trained in batches of 51 PET images per subject directory from two classes: Aβ positive and Aβ negative states based on the BAPL scores. 
 
-Results: The binary prediction of the model average performance matrices was evaluated after 40 epochs of five trials based on test datasets. The model accuracy for predicting Aβ positivity and Aβ negativity was 82.00±0.02 in the test dataset. The sensitivity and specificity were 97.00±0.02 and 97.00±0.02 with an area under the curve (AUC) of 90.00±0.03.
+Results: The binary prediction of the model average performance matrices was evaluated after 40 epochs of five trials based on test datasets. The model accuracy for classifying Aβ positivity and Aβ negativity was 82.00±0.02 in the test dataset. The sensitivity and specificity were 97.00±0.02 and 97.00±0.02 with an area under the curve (AUC) of 90.00±0.03.
 
 Conclusion: Based on this study, the designed CNN model has the potential to be used clinically for screening amyloid PET images.
