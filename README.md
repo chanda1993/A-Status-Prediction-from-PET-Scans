@@ -17,4 +17,4 @@ Figure shows the study framework.
 Abbreviations: PET, positron emission tomography; CNN, convolutional 
 neural network; Aβ, β-Amyloid.
 
-DOI: https://doi.org/10.12779/dnd.2023.22.2.61
+Publication DOI: https://doi.org/10.12779/dnd.2023.22.2.61
